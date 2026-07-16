@@ -140,5 +140,5 @@ folium.PolyLine(
 m.fit_bounds([[min(lats), min(lons)], [max(lats), max(lons)]])
 folium.LayerControl(collapsed=False).add_to(m)
  
-m.save("map.html")
-print("Saved map.html")
+m.save("index.html")
+print("Saved index.html")
